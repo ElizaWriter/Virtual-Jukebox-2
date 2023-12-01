@@ -287,9 +287,9 @@ function celticSongScreen() {
   textSize(60);
   textFont('Apple Chancery');
   text("Ballroom of Romance", width / 2, 60);
-  fill(255);
-  rectMode(CENTER);
-  rect(50, height/2+200, 60, 60);
+  // fill(255);
+  // rectMode(CENTER);
+  // rect(50, height/2+200, 60, 60);
   coverSet();
   angleMode(DEGREES);
   push();
