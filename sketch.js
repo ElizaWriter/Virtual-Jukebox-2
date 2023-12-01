@@ -32,7 +32,7 @@ function preload() {
 }
 
 function setup() {
-  imageFormats('png','jpg');
+  //imageFormats('png','jpg');
   bg1 = loadImage ('vintage-vinyl.png');
   //bg2 = loadImage ();
   // bg3 = loadImage ();
@@ -45,7 +45,7 @@ function setup() {
   disk3 = loadImage('Rock This Town.png');
   disk4 = loadImage('Happier.png');
   disk5 = loadImage('Country Boy.png');
-  disk6 = loadImage('Ballroom of Romance');
+  disk6 = loadImage('Ballroom of Romance.png');
   cover1 = loadImage('Classic Cover.png');
   cover2 = loadImage('Metal Cover.png');
   cover3 = loadImage('Rock Cover.png');
