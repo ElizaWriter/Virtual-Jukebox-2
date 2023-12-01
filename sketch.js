@@ -44,7 +44,7 @@ function setup() {
   disk3 = loadImage('Rock This Town.png');
   disk4 = loadImage('Happier.png');
   disk5 = loadImage('Country Boy.png');
-  disk6 = loadImage('Ballroom Of Romance.png');
+  disk6 = loadImage('Ballroom of Romance.png');
   cover1 = loadImage('Classic Cover.png');
   cover2 = loadImage('Metal Cover.png');
   cover3 = loadImage('Rock Cover.png');
