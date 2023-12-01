@@ -70,9 +70,9 @@ function draw() {
   } else if (state == 4) {
     popSongScreen();
   } else if (state == 5) {
-    CountrySongScreen();
+    countrySongScreen();
   } else if (state == 6) {
-    CelticSongScreen();
+    celticSongScreen();
   }
 }
 
@@ -256,7 +256,7 @@ function popSongScreen() {
   angle++;
 }
 
-function CountrySongScreen() {
+function countrySongScreen() {
   background(224, 196, 153);
   fill(0);
   textSize(60);
@@ -278,12 +278,11 @@ function CountrySongScreen() {
   angle++;
 }
 
-function CelticSongScreen() {
+function celticSongScreen() {
   // imageMode(CORNERS);
   // tint(255, alpha);
   // background (bg7, width, height);
   background (121, 210, 121);
-  imageMode(CENTER);
   fill(0);
   textSize(60);
   textFont('Apple Chancery');
