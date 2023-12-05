@@ -20,6 +20,11 @@ h1, h2 {
 p { 
   text-align: center;
   font-size: 18px;
+}
+
+div {
+   margin: auto;
+ display: block;
 
 }
 
