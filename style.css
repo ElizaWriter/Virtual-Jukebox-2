@@ -1,31 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap");
-html,
-body {
-  margin: auto;
-  padding: 0;
-  color: white; 
-  background-color: black;
-  font-family: "ZCOOL XiaoWei", serif;
-  width: 75%;
-}
-h1, h2 {
-  text-align: center; 
-}
-p { 
-  text-align: center;
-  font-size: 18px;
-}
-
-body {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 canvas {
  margin: auto; 
   display: block;
   justify-content: center;
   align-items: center;
+} 
+html,body {
+  margin: auto;
+  padding: 0;
+  color: white; 
+  background-color: black;
+  font-family: "ZCOOL XiaoWei", serif;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+h1, h2 {
+  text-align: center; 
+}
+
+p { 
+  text-align: center;
+  font-size: 18px;
+}
+
+/* body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
