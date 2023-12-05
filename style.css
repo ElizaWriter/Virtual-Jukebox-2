@@ -35,8 +35,7 @@ div {
   list-style-type: none;
   background-color: grey;
   padding: 0;
-  position: fixed;
-  margin: auto;
+  margin: 0;
  overflow: hidden;
 }
 
