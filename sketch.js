@@ -85,7 +85,7 @@ function splashScreen() {
   textSize(60);
   text("Retro Music Picker", width / 2, height / 4);
   textSize(20);
-  text("By Elizabeth Enloe & ", width / 2, height / 3);
+  text("By Elizabeth Enloe, Stephanie Gutierrez, & Truc Dong ", width / 2, height / 3);
   text(
     "Use the keypad or click the mouse to select the song you wish to play!",
     width / 2,
