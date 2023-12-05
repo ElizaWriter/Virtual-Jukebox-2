@@ -8,13 +8,17 @@ html, body {
   margin: auto;
   width: 75%;
   padding: 0;
-  color: white; 
-  background-color: black;
+  color: black; 
+  background-color: white;
   font-family: "ZCOOL XiaoWei", serif;
 } 
 
 h1, h2 {
   text-align: center; 
+}
+
+main{
+ margin: auto;
 }
 
 p { 
@@ -27,20 +31,20 @@ div {
  display: block;
 }
 
-ul {
+.nav ul{
   list-style-type: none;
- position: fixed;
-  margin: auto;
+  background-color: grey;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  position: fixed;
+  margin: auto;
+ overflow: hidden;
 }
 
-li {
+.nav li {
   float: left;
 }
 
-li a {
+.nav a {
   display: block;
   color: white;
   text-align: center;
@@ -48,7 +52,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.nav a:hover {
   background-color: #111;
 }
 
