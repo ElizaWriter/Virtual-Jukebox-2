@@ -3,27 +3,22 @@
 canvas {
  margin: auto; 
   display: block;
-  justify-content: center;
-  align-items: center;
 } 
-body {
+html, body {
   margin: auto;
   padding: 0;
   color: white; 
   background-color: black;
   font-family: "ZCOOL XiaoWei", serif;
-  text-align: center; 
 } 
 
 h1, h2 {
   text-align: center; 
-  margin: auto; 
 }
 
 p { 
   text-align: center;
   font-size: 18px;
-  margin: auto; 
 
 }
 
