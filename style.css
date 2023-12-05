@@ -2,10 +2,11 @@
 
 canvas {
  margin: auto; 
-  display: block;
+ display: block;
 } 
 html, body {
   margin: auto;
+ width: 600px;
   padding: 0;
   color: white; 
   background-color: black;
