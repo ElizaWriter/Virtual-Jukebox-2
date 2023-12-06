@@ -103,9 +103,9 @@ function mouseClicked () {
   music6.stop();
   music1.loop();
   music1.play();
-  if (music1.isPlaying()){
-    music1.play();
-  }
+  // if (music1.isPlaying()){
+  //   music1.play();
+  // }
 }
 
 function keyPressed() {
@@ -177,7 +177,7 @@ function keyPressed() {
       music6.stop();
     }
   }
-  }
+ }
 
 function classicSongScreen() {
   background(150);
