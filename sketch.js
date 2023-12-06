@@ -103,9 +103,10 @@ function mouseClicked () {
   music6.stop();
   music1.loop();
   music1.play();
-  // if (music1.isPlaying()){
-  //   music1.play();
-  // }
+  if (music1.isPlaying()){
+    music1.play();
+  }
+}
 
 function keyPressed() {
   if (keyCode === UP_ARROW) {
