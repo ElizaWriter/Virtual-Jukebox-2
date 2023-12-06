@@ -22,7 +22,7 @@ let angle=0;
 
 function preload() {
   soundFormats('mp3', 'ogg');
-  music1 = loadSound("9 to 5");
+  music1 = loadSound("9 to 5"); 
   music2 = loadSound("Feel Invincible");
   music3 = loadSound("Rock This Town");
   music4 = loadSound("Happier");
@@ -103,6 +103,8 @@ function mouseClicked () {
   music6.stop();
   music1.loop();
   music1.play();
+  if (music1.isPlaying()){
+    music1.play();
   }
 
 function keyPressed() {
@@ -115,6 +117,7 @@ function keyPressed() {
     music6.stop();
     music2.loop();
     music2.play();
+    
   } else if (keyCode === DOWN_ARROW) {
     state = 3;
     music1.stop();
