@@ -180,7 +180,7 @@ function keyPressed() {
  }
 
 function classicSongScreen() {
-  deleteCommand ();
+  // deleteCommand ();
   background(150);
   fill(0);
   textSize(60);
@@ -201,7 +201,7 @@ function classicSongScreen() {
 }
 
 function metalSongScreen() {
-  deleteCommand ();
+  // deleteCommand ();
   background(0);
   fill(255);
   textSize(60);
@@ -224,7 +224,7 @@ function metalSongScreen() {
 }
 
 function rockSongScreen() {
-  deleteCommand ();
+  // deleteCommand ();
   background(229, 57, 53);
   fill(0);
   textSize(60);
@@ -245,7 +245,7 @@ function rockSongScreen() {
 }
 
 function popSongScreen() {
-  deleteCommand ();
+  // deleteCommand ();
   background(250, 211, 225);
   fill(0);
   textSize(60);
@@ -266,7 +266,7 @@ function popSongScreen() {
 }
 
 function countrySongScreen() {
-  deleteCommand ();
+  // deleteCommand ();
   background(224, 196, 153);
   fill(0);
   textSize(60);
@@ -289,7 +289,8 @@ function countrySongScreen() {
 }
 
 function celticSongScreen() {
-  deleteCommand ();
+  // deleteCommand ();
+  
   // imageMode(CORNERS);
   // tint(255, alpha);
   // background (bg7, width, height);
@@ -321,11 +322,11 @@ function coverSet () {
   image(cover6, 50, height/2+200, 50,50);
 }
 
-function deleteCommand () {
-  fill (0);
-  rect(620,540, 290, 50):
-  fill (255);
-  textSize(25);
-  text('Delete = Stop Music', 620, 550);
+// function deleteCommand () {
+//   fill (0);
+//   rect(620,540, 290, 50):
+//   fill (255);
+//   textSize(25);
+//   text('Delete = Stop Music', 620, 550);
   
-}
+// }
